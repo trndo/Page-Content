@@ -1,0 +1,9 @@
+index:
+   path: /
+   controller: App\Controller\PageContentController::index
+query:
+  path: /query
+  controller: App\Controller\PageContentController::query
+content:
+  path: content/{id}
+  controller: App\Controller\PageContentController::content
