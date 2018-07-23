@@ -1,9 +1,0 @@
-{% extends 'base.html.twig' %}
-
-{% block body %}
-    <h1>{{ page.title }}</h1>{{ page.updated_at|date("m/d/Y")}}
-    <p>{{ page.about_content }}</p>
-    {% if page.show_additional_info %}
-        <p>{{ page.additional_info}}</p>
-    {% endif %}
-{% endblock %}
